@@ -1,1 +1,44 @@
-en esta pagina pongo el nombre de tienda. la imagen, info sobre tienda
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="biblioteca, libros, lectura">
+    <meta name="description" content="crear una pagina estatica de una biblioteca">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icono.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Logo</h1>
+            <ul>
+                <li>Inicio</li>
+            </ul>
+            <h3>Donde cada historia comienza</h3>
+        </header>
+        <h2>breve historia</h2>
+        <main>
+            <div class="col">
+                <p>Un espacio dedicado al conocimiento, la lectura y el aprendizaje para toda la comunidad.
+                    Descubre libros, recursos y actividades que inspiran la curiosidad y el amor por la cultura.</p>
+            </div>
+            <div class="col">
+                <img src="book.jpg" alt="libro" width="350px">
+            </div>
+        </main>
+         <h2>contacto</h2>
+        <footer>
+            <form action="">
+                <label for="">nombre</label>
+                <input type="text"><br>
+                <label for="">correo</label>
+                <input type="email"><br>
+                <input type="submit" value="enviar" class="boton">
+            </form>
+            <p>Desarrollado por Angelica | @ 2026</p>
+        </footer>
+    </div>
+</body>
+</html>
