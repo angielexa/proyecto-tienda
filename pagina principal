@@ -7,7 +7,7 @@
     <meta name="description" content="crear una pagina estatica de una biblioteca">
     <title>Biblioteca</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="icono.png" type="image/x-icon">
+    
 </head>
 <body>
     <div class="container">
